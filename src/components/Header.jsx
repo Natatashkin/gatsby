@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import { useTranslation } from "react-i18next";
-// import { LocalizedLink as Link } from "gatsby-theme-i18n";
+import { LocalizedLink as Link } from "gatsby-theme-i18n";
 
 const NAV_ITEMS = [
   { id: "main", path: "/" },

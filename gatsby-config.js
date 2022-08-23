@@ -5,6 +5,7 @@ module.exports = {
     languages: {
       langs: ["ua", "ru"],
       defaultLangKey: "ua",
+      currentLangKey: localStorage.getItem("i18nextLng"),
     },
   },
 

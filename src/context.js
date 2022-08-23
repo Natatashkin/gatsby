@@ -6,7 +6,7 @@ export const LocaleContext = createContext();
 const LocaleProvider = ({ children }) => {
   const { i18n } = useTranslation();
   const [currentLocale, setCurrentLocale] = useState(i18n.language);
-  // console.log(currentLocale);
+  console.log(currentLocale);
 
   useEffect(() => {
     setCurrentLocale(i18n.language);
