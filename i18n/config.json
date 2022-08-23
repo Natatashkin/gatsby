@@ -1,0 +1,16 @@
+[
+  {
+    "code": "ua",
+    "hrefLang": "uk",
+    "name": "Ukrainian",
+    "localName": "Ukrainian",
+    "langDir": "ltr"
+  },
+  {
+    "code": "ru",
+    "hrefLang": "ru",
+    "name": "Russian",
+    "localName": "Russian",
+    "langDir": "ltr"
+  }
+]
