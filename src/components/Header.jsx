@@ -22,7 +22,7 @@ const Header = ({ location }) => {
     const newArr = location.pathname.split("/");
     const newStr = newArr.slice(2).join("/");
     navigate(`/${currentLocale}/${newStr}`);
-  }, [currentLocale]);
+  }, [currentLocale, location.pathname]);
 
   return (
     <nav
