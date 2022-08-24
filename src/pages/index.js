@@ -12,7 +12,7 @@ const MainPage = ({ location }) => {
   console.log(config);
   return (
     <Suspense fallback="Loading ...">
-      <Layout>
+      <Layout location={location}>
         <h1>{t(`navItems.main`)}</h1>
       </Layout>
     </Suspense>

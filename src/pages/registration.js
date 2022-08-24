@@ -3,10 +3,10 @@ import "../i18n";
 import Layout from "../components/Layout";
 import { useTranslation } from "react-i18next";
 
-const RegistrationPage = () => {
+const RegistrationPage = ({ location }) => {
   const { t } = useTranslation();
   return (
-    <Layout>
+    <Layout location={location}>
       <h1>{t(`navItems.registration`)}</h1>
     </Layout>
   );

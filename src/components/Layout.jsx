@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./Header";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   return (
     <div>
       <header>
-        <nav>{<Header />}</nav>
+        <nav>{<Header location={location} />}</nav>
       </header>
       {children}
     </div>
